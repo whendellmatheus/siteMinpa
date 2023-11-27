@@ -1,0 +1,202 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+footer {      
+        
+    font-family: verdana, arial;
+    background-color: #aef1ae;
+                
+}
+    
+
+.dropdown-menu{
+    background-color: #aef1ae;
+}
+
+/** estilo carrosel imagens*/
+
+main {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.carousel-container {
+    position: relative;
+    width: 40%; /* Ajuste o tamanho conforme necessário */
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+
+
+
+
+/** estilo carrosel imagens*/
+
+.missao{
+    
+    margin: 5% 20% 5%;  
+    text-align:justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.missao h2{
+    
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.historia{
+    
+    margin: 5% 20% 5%;
+    text-align:justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.historia h2{
+    
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.gestao{
+    
+    margin: 5% 20% 5%;   
+    text-align:justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.gestao h2{
+    
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.filie{
+    
+    margin: 5% 20% 5%;   
+    text-align:justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.filie h2{
+    
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.contato{
+    
+    margin: 5% 20% 5%;    
+    text-align:justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+ 
+
+.doacao{
+    
+    margin: 5% 20% 5%;   
+    text-align:justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.doacao h2{
+    
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.botao-doacao {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db; 
+    color: #fff; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-doacao:hover {
+    background-color: #2980b9;
+}
+
